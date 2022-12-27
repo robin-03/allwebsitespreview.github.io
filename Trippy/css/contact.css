@@ -108,12 +108,3 @@
 }
 
 /* preload */
-#preloader {
-   height: 100vh;
-   width: 100%;
-   background: rgb(255, 255, 255) url(../img/1_CsJ05WEGfunYMLGfsT2sXA.gif)
-      no-repeat center center;
-   background-size: 60%;
-   position: fixed;
-   z-index: 1010;
-}

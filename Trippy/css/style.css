@@ -163,7 +163,7 @@
    justify-content: space-between;
    position: relative;
    display: flex;
-   padding-top:rem;
+   padding-top: rem;
 }
 
 .popu_image img {
@@ -317,13 +317,21 @@
    .popu_image img {
       width: 100%;
       margin: 3rem 0rem;
-      
    }
-   .popu_image img:nth-child(2){
+   .popu_image img:nth-child(2) {
       position: relative;
    }
 
    .popu_text h1 {
       font-size: 1.5rem;
    }
+}
+#preloader {
+   height: 100vh;
+   width: 100%;
+   background: rgb(255, 255, 255) url(../img/1_CsJ05WEGfunYMLGfsT2sXA.gif)
+      no-repeat center center;
+   background-size: 60%;
+   position: fixed;
+   z-index: 1010;
 }
